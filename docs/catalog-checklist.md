@@ -10,6 +10,6 @@
 - [x] Repository-Themen: home-assistant, theme, hacs
 - [x] Echte, datenschutzfreie HA-Screenshots in Hell und Dunkel ergänzt
 - [x] Veröffentlichung 0.1.1 mit Dokumentation und Screenshots nach erfolgreichen Prüfungen
-- [ ] Aufnahmeantrag als Pull Request in hacs/default, alphabetisch in theme
+- [x] [Aufnahmeantrag #14217](https://github.com/hacs/default/pull/14217) in hacs/default eingereicht, alphabetisch in theme
 
-Der Aufnahmeantrag ist noch nicht eingereicht. Eine Prüfung im eigenen Repository ist keine Aufnahmegarantie.
+Der Aufnahmeantrag ist offen und wartet auf die Prüfung durch das HACS-Team. JSON-Schema und alphabetische Sortierung wurden erfolgreich geprüft. Eine Einreichung ist noch keine Aufnahmegarantie.
