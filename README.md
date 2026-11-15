@@ -7,15 +7,15 @@ Eigenständiges Home-Assistant-Theme mit Petrol-Akzent, ruhigen Oberflächen und
 
 ## Vorschau
 
-Die folgenden Bilder zeigen die Theme-Farben mit fiktiven Beispieldaten. Es sind **schematische Vorschaubilder**, keine Screenshots einer HA-Installation; individuelle Karten können anders aussehen.
+Die folgenden Bilder sind echte Home-Assistant-Screenshots mit Kemmer Theme und ausschließlich fiktiven Beispieldaten. Persönliche Inhalte und die Seitenleiste wurden ausgeschnitten. Benutzerdefinierte Karten können anders aussehen.
 
 ### Hell
 
-![Kemmer Theme: heller Modus](docs/preview-light.svg)
+![Kemmer Theme: heller Modus](docs/screenshot-light.jpg)
 
 ### Dunkel
 
-![Kemmer Theme: dunkler Modus](docs/preview-dark.svg)
+![Kemmer Theme: dunkler Modus](docs/screenshot-dark.jpg)
 
 ## Gestaltung
 
@@ -44,7 +44,7 @@ Die Struktur mit themes-Ordner und hacs.json ist vorbereitet. Installation als b
 
 ## Prüfung und Grenzen
 
-YAML-Struktur und Textkontraste werden mit `python validate.py` geprüft (PyYAML erforderlich). Haupt- und Sekundärtext müssen mindestens 4,5:1 gegen die Kartenfläche erreichen. Noch keine visuelle Prüfung in einer laufenden HA-Installation. Benutzerdefinierte Karten können eigene Farben und Layouts verwenden. Einige Frontend-Variablen sind versionsabhängig. Zielversion: HA 2026.11.
+YAML-Struktur und Textkontraste werden mit `python validate.py` geprüft (PyYAML erforderlich). Haupt- und Sekundärtext müssen mindestens 4,5:1 gegen die Kartenfläche erreichen. Die Beispielansicht wurde in Home Assistant 2026.11 in Hell und Dunkel visuell geprüft. Benutzerdefinierte Karten können eigene Farben und Layouts verwenden. Einige Frontend-Variablen sind versionsabhängig. Zielversion: HA 2026.11.
 
 ## Herkunft und Lizenz
 
