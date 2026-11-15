@@ -1,6 +1,21 @@
 # Kemmer Theme
 
+[![Validate](https://github.com/Johnyboy1984/kemmer-theme/actions/workflows/validate.yaml/badge.svg)](https://github.com/Johnyboy1984/kemmer-theme/actions/workflows/validate.yaml)
+[![Im Marketplace öffnen](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=Johnyboy1984&repository=kemmer-theme&category=theme)
+
 Eigenständiges Home-Assistant-Theme mit Petrol-Akzent, ruhigen Oberflächen und Hell-/Dunkelmodus. Version 0.1.0.
+
+## Vorschau
+
+Die folgenden Bilder zeigen die Theme-Farben mit fiktiven Beispieldaten. Es sind **schematische Vorschaubilder**, keine Screenshots einer HA-Installation; individuelle Karten können anders aussehen.
+
+### Hell
+
+![Kemmer Theme: heller Modus](docs/preview-light.svg)
+
+### Dunkel
+
+![Kemmer Theme: dunkler Modus](docs/preview-dark.svg)
 
 ## Gestaltung
 
