@@ -3,7 +3,7 @@
 [![Validate](https://github.com/Johnyboy1984/kemmer-theme/actions/workflows/validate.yaml/badge.svg)](https://github.com/Johnyboy1984/kemmer-theme/actions/workflows/validate.yaml)
 [![Im Marketplace öffnen](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=Johnyboy1984&repository=kemmer-theme&category=theme)
 
-Eigenständiges Home-Assistant-Theme mit Petrol-Akzent, ruhigen Oberflächen und Hell-/Dunkelmodus. Version 0.1.0.
+Eigenständiges Home-Assistant-Theme mit Petrol-Akzent, ruhigen Oberflächen und Hell-/Dunkelmodus. Version 0.1.1.
 
 ## Vorschau
 
