@@ -27,20 +27,32 @@ Die folgenden Bilder sind echte Home-Assistant-Screenshots mit Kemmer Theme und 
 
 ## Installation
 
+### Über Marketplace / HACS
+
+Kemmer Theme ist im gemeinsamen Marketplace-/HACS-Katalog enthalten. Ein benutzerdefiniertes Repository muss nicht hinzugefügt werden.
+
+1. Öffne den **Marketplace / HACS** in Home Assistant.
+2. Suche nach **Kemmer Theme**, öffne den Eintrag und lade das Theme herunter.
+3. Richte bei Bedarf das Theme-Verzeichnis wie unten beschrieben ein und wähle anschließend **Kemmer Theme** in deinem Benutzerprofil aus.
+
+Falls der Eintrag direkt nach der Katalogaufnahme noch fehlt, aktualisiere den Marketplace-/HACS-Katalog und suche erneut.
+
+### Manuelle Installation
+
 Kopiere `themes/kemmer_theme.yaml` in deinen HA-Konfigurationsordner, z. B. nach `themes/kemmer/kemmer_theme.yaml`.
 
-Falls noch nicht eingerichtet:
+### Theme-Verzeichnis einrichten und Theme auswählen
+
+Falls noch nicht eingerichtet, ergänze in `configuration.yaml`:
 
 ```yaml
 frontend:
   themes: !include_dir_merge_named themes
 ```
 
-Bestehende frontend-Einstellungen zusammenführen, keinen zweiten frontend-Block anlegen. Bei bereits aktiviertem Theme-Verzeichnis genügt die Aktion `frontend.reload_themes`. Anschließend im Benutzerprofil **Kemmer Theme** auswählen und Hell/Dunkel testen. Das bisherige Theme bleibt parallel verfügbar. Dashboard- oder Kartenangaben mit `theme: Google Theme` überschreiben die Profilauswahl und müssen für einen Vergleich gezielt angepasst werden.
+Bestehende frontend-Einstellungen zusammenführen, keinen zweiten frontend-Block anlegen. Wenn du die Theme-Verzeichnis-Einstellung neu ergänzt hast, prüfe die Konfiguration und starte Home Assistant neu. Bei bereits aktiviertem Theme-Verzeichnis genügt die Aktion `frontend.reload_themes`.
 
-## Marketplace / HACS
-
-Die Struktur mit themes-Ordner und hacs.json ist vorbereitet. Installation als benutzerdefiniertes Theme-Repository ist vorgesehen; die Aufnahme in einen offiziellen Katalog ist damit nicht verbunden.
+Öffne danach dein **Benutzerprofil**, wähle **Kemmer Theme** und teste Hell/Dunkel. Das bisherige Theme bleibt parallel verfügbar. Dashboard- oder Kartenangaben mit `theme: Google Theme` überschreiben die Profilauswahl und müssen für einen Vergleich gezielt angepasst werden.
 
 ## Prüfung und Grenzen
 
